@@ -60,6 +60,8 @@ The keys at the beginning of the sketches:
 </br>
 And the content of the "setup()" function:
 </br>
+</br>
+
 
     void setup() {
       Serial.begin(115200); // Init. Serial Terminal
