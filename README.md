@@ -72,7 +72,7 @@ And the content of the "setup()" function:
       //m = 0; // Set AES to 128-bit mode
       //m = 1; // Set AES to 192-bit mode
       m = 2; // Set AES to 256-bit mode
-      char iv[16] ={255, 254, 253, 252, 251, 250, 249, 248, 247, 246, 245, 244, 243, 242, 241, 240}; // Initialization Vector (Should be random)
+      char iv[16] = {255, 254, 253, 252, 251, 250, 249, 248, 247, 246, 245, 244, 243, 242, 241, 240}; // Initialization Vector (Should be random)
       String plaintext = "This string is encrypted using the combination of AES and Blowfish encryption algorithms in cipher block chaining mode. The integrity of this string (when decrypted) is verified using the HMAC-SHA256."; // What's being encrypted
       encrypt_string_with_AES_plus_Blowfish_in_CBC(iv, plaintext); // Encrypt data
       Serial.println();
