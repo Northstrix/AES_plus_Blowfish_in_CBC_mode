@@ -57,7 +57,9 @@ The keys at the beginning of the sketches:
        0x16,0x76,0x28,0x69
     };
 
+</br>
 And the content of the "setup()" function:
+</br>
 
     void setup() {
       Serial.begin(115200); // Init. Serial Terminal
