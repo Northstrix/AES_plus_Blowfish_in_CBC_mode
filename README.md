@@ -31,7 +31,8 @@ Both sketches successfully tested on the following development boards:
 
 ## Usage
 
-As for the sketches themselves, there are only two parts that you should pay attention to.
+As for the sketches themselves, there are only two parts that you should pay attention to:
+</br>
 </br>
 The keys at the beginning of the sketches:
 </br>
@@ -56,7 +57,7 @@ The keys at the beginning of the sketches:
        0x16,0x76,0x28,0x69
     };
 
-And the content of the "setup()" function.
+And the content of the "setup()" function:
 
     void setup() {
       Serial.begin(115200); // Init. Serial Terminal
