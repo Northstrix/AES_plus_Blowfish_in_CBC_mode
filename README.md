@@ -16,6 +16,8 @@ https://github.com/intrbiz/arduino-crypto
 All libraries are the properties of their respective owners.
 </br>
 Copyright notices from the used libraries are in the "Copyright Notices" directory.
+</br>
+*Note that the library with the implementation of AES was slightly modified to make it compatible with the RTL8720DN.
 
 ## Compatibility
 
@@ -24,6 +26,7 @@ Both sketches successfully tested on the following development boards:
 - ESP32
 - Teensy 4.1
 - Raspberry Pi Pico
+- ESP8266
 
 
 ## Usage
