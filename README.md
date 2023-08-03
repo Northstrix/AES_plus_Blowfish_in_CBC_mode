@@ -84,3 +84,7 @@ And the content of the "setup()" function.
         Serial.println("Integrity Verification Failed!!!");
       }
     }
+
+
+## Visual representation of the encryption and decryption processes
+![image text](https://github.com/Northstrix/AES_plus_Blowfish_in_CBC_mode/blob/main/AES%2BBlowfish%20Encryption%20Algorithm%20in%20CBC%20Mode.png)
