@@ -1,5 +1,5 @@
 # AES_plus_Blowfish_in_CBC_mode
-The AES_plus_Blowfish_in_CBC_mode repository contains two sketches that enable you to encrypt your data using a combination of AES and Serpent encryption algorithms in CBC mode. The only difference between them, from the functional point of view, is that one verifies the integrity of the decrypted data (plaintext) while the other doesn't.
+The AES_plus_Blowfish_in_CBC_mode repository contains two sketches that enable you to encrypt your data using a combination of AES and Blowfish encryption algorithms in CBC mode. The only difference between them, from the functional point of view, is that one verifies the integrity of the decrypted data (plaintext) while the other doesn't.
 
 ## Copyright/Ownership/Licenses
 
